@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- By SunBean -->
+<!-- Notes For Editors:
+    1 name: 歌曲名，文件名，用于AS文件查找
+    2 closeSpeed: 对于前一个的关闭速度，这个你不要改
+    3 如果这是一个只需要播放一次的声音：
+        back: 0
+        addition: 0
+    4 如果这是一个需要重复播放的声音：
+        back: 代表了什么时候回滚的毫秒数。（不是文件长度，popcap经常出现一个mp3同时播放不同时间段的）
+        addition: 如果需要有前缀s音乐则为前缀音乐单独播放的时间，之后开始循环基本音域；如没有前缀音乐为0。
+
+    总结：
+        你的任务很简单，就是改swf的文字（name，改xml里面的数据
+        然后在文本框外滚鼠标滚轮一次
+        然后听效果，使其自然
+-->
+<bgmlist>
+    <music>
+        <name>da0</name>
+        <back>16500</back>
+        <addition>5000</addition>
+        <closeSpeed>1</closeSpeed>
+    </music>
+    <music>
+        <name>da1</name>
+        <back>61000</back>
+        <addition>0</addition>
+        <closeSpeed>0.2</closeSpeed>
+    </music>
+    <music>
+        <name>da2</name>
+        <back>53000</back>
+        <addition>7500</addition>
+        <closeSpeed>0.2</closeSpeed>
+    </music>
+    <music>
+        <name>da3</name>
+        <back>55000</back>
+        <addition>8050</addition>
+        <closeSpeed>0.2</closeSpeed>
+    </music>
+    <music>
+        <name>daw</name>
+        <back>0</back>
+        <addition>0</addition>
+        <closeSpeed>0.5</closeSpeed>
+    </music>
+    <music>
+        <name>da4</name>
+        <back>1000</back>
+        <addition>5750</addition>
+        <closeSpeed>0.2</closeSpeed>
+    </music>
+</bgmlist>
